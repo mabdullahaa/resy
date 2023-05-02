@@ -17,3 +17,6 @@ This scrapes all restaurants in NYC on Resy for:
 
 ## scrape_availabile
 
+This continuously scrapes a given list of restaurants to find open slots, then sends an email when it finds one. It is similar to the "Notify me" button on Resy, but it runs every minute over multiple restaurants for all future days. It is also more customizable, for example you can limit it to meals between 5pm and 9pm.
+
+<img width="858" alt="Screenshot 2023-05-01 at 11 01 19 PM" src="https://user-images.githubusercontent.com/67289464/235570848-e83b923e-8312-4e02-bec1-98bfb8f9eba0.png">
